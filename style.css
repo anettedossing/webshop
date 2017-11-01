@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Sail';
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+header {
+  background-color: #1B1D1E;
+  height: 89px;
+  width: 100%;
+}
+header a {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #E6CD62
+
+
+}
+/*nav bar*/
+ul {
+  background-color: #631025;
+  height: 45px;
+  width: 100%;
+  list-style-type: none
+}
+li {
+  display: block;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #E6CD62;
+
+}
+
+.logo{
+   float: left;
+   margin: 3px;
+ }
+ img {
+  max-width: 100%;
+  height: auto;
+
+}
+footer {
+  background-color: #1B1D1E;
+  height: 89px;
+  width: 100%;
+}
