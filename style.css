@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Sail';
   font-family: 'Libre Franklin', sans-serif;
@@ -14,43 +15,73 @@ header {
   height: 89px;
   width: 100%;
 }
-header a {
+header h1{
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 28px;
+  padding-right: 10px;
+  padding-bottom: 32px;
+  font-family: 'sail';
   color: #E6CD62
-
-
 }
+
 /*nav bar*/
 ul {
   background-color: #631025;
   height: 45px;
   width: 100%;
-  list-style-type: none
+  list-style-type: none;
+  overflow: hidden;
+
 }
 li {
-  display: block;
   float: left;
 }
-
+.active{
+  background-color: #4A0A1A;
+}
 a {
   text-decoration: none;
   color: #E6CD62;
+  text-align: center;
+  display: block;
+  padding: 16px;
+  font-size: 11px;
+
 
 }
 
-.logo{
+ .logo {
    float: left;
-   margin: 3px;
+
+}
+
+/* media query for breakpoint ved 768px:*/
+@media screen and (min-width: 768px) {
+  .mobileonly{
+  }
+  .desktoponly{
+  }
  }
  img {
   max-width: 100%;
   height: auto;
 
 }
+h1{
+  color: #e6cd62;
+}
 footer {
   background-color: #1B1D1E;
-  height: 89px;
+  height: auto;
   width: 100%;
+  text-align: right;
+  bottom: 0;
+  position: relative;
+  padding-bottom: 13px;
+}
+footer p{
+  color: #e6cd62;
+}
+footer img{
+  float: left;
 }
