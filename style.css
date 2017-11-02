@@ -61,6 +61,10 @@ img {
  height: auto;
  padding-top: 10%;
 }
+
+h2 {
+  padding: 5% 0 0 10%;
+}
 .priser h2, p{
  font: 'Libre Franklin';
  padding-right: 10%;
@@ -87,16 +91,24 @@ husk at sætte det der skal ændres ind før slut }*/
     padding-bottom: 65px;
     font-size: 70px;
   }
-  .priser h2, p{
+  .priser h2, p {
     font: 'Libre Franklin';
     padding-right: 10%;
-    text-align: right;
+
+
   }
   .overskrift p{
-    text-align: left;
+    float: left;
   }
   .overskrift h2{
     padding-left: 10%;
+  }
+  article {
+    width: 50%;
+    float: left;
+  }
+  .clear{
+    clear: both;
   }
  }
  /* media query slut */
@@ -108,6 +120,7 @@ footer {
   text-align: right;
   bottom: 0;
   position: relative;
+  clear:both;
 }
 footer p{
   color: #e6cd62;
