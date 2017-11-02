@@ -63,7 +63,7 @@ img {
 }
 
 h2 {
-  padding: 5% 0 0 10%;
+  padding: 0 0 0 10%;
 }
 .priser h2, p{
  font: 'Libre Franklin';
@@ -73,6 +73,13 @@ h2 {
 
 h1{
  color: #e6cd62;
+}
+.priser h3 {
+  font-size: 30px;
+  padding: 2%;
+  margin-left: 10%;
+  width: 25%;
+  background-color: #737373;
 }
 
 /* media query for breakpoint ved 768px:,
