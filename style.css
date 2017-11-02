@@ -52,36 +52,67 @@ a {
 
  .logo {
    float: left;
-
+   padding-top: 0;
+   height: 89px;
+   width: auto;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ padding-top: 10%;
+}
+.priser h2, p{
+ font: 'Libre Franklin';
+ padding-right: 10%;
+ padding-left: 10%;
 }
 
-/* media query for breakpoint ved 768px:*/
+h1{
+ color: #e6cd62;
+}
+
+/* media query for breakpoint ved 768px:,
+husk at sætte det der skal ændres ind før slut }*/
 @media screen and (min-width: 768px) {
-  .mobileonly{
+  header{
+    height: 217px;
+    width: 100%;
   }
-  .desktoponly{
+  .logo{
+    height: 217px;
+    width: auto;
+  }
+  header h1{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-size: 70px;
+  }
+  .priser h2, p{
+    font: 'Libre Franklin';
+    padding-right: 10%;
+    text-align: right;
+  }
+  .overskrift p{
+    text-align: left;
+  }
+  .overskrift h2{
+    padding-left: 10%;
   }
  }
- img {
-  max-width: 100%;
-  height: auto;
+ /* media query slut */
 
-}
-h1{
-  color: #e6cd62;
-}
 footer {
   background-color: #1B1D1E;
-  height: auto;
+  height: 70px;;
   width: 100%;
   text-align: right;
   bottom: 0;
   position: relative;
-  padding-bottom: 13px;
 }
 footer p{
   color: #e6cd62;
 }
 footer img{
   float: left;
+  padding-top: 0;
 }
