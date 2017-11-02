@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+  color: #E6CD62;
+  font-family: 'Sail';
+  display: inline;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Yantramanav';
+  margin-top: 10px;
+  color: #95989A;
+}
+
+p {
+  font-size: 15px;
+  color: #95989A;
+}
+header {
+  width: 100%;
+  height: 89px;
+  background-color: #1B1D1E;
+}
+
+.headerposition{
+  position: relative;
+  left: 50px;
+}
+
+i {
+  color: #f8f8f8;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+/*ekstra*/
+.footercolor{
+  color: #E6CD62;
+}
+
+.footerpos {
+  display: block;
+  float: right;
+  clear: both;
+}
+
+.sectioncolor {
+  background-color: #1B1D1E;
+}
+body{
+  background-image: url("../img/herregaard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height:100%;
+}
+
+section{
+  background-color: white;
+}
+
+header{
+  background-color: black;
+}
+.fhlogo {
+  max-width: 10%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+  color:#E6CD62;
+}
+
+nav {
+  background-color: #631025;
+  height: 45px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+li a {
+  display: block;
+  color: #E6CD62;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 15px 0;
+}
+
+
+.fhforside{
+  height: auto;
+  width: 100%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+h2{
+  position: absolute;
+  bottom:  -100px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+
+h2 span{
+  color: #E6CD62;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  display: block;
+}
+
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding: 50px 0px;
+
+}
+@media screen and (min-width: 100px) {
+
+
+
+
+@media screen and (min-width: 768px){
+
+  body{
+    background-image: none;
+  }
+
+.FHfooter{
+  position: relative;
+}
+
+li {
+  float: left;
+  width: 100px;
+}
+header{
+}
+
+.fhforside{
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}

@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: black;
+}
+.fhlogo {
+  max-width: 10%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+  color:#E6CD62;
+}
+
+nav{
+  background-color: #631025;
+}
+
+nav ul{
+list-style: none;
+text-align: center;
+height: 103%;
+width: 100%;
+margin:0;
+padding:0;
+background-color: #631025;
+color: #E6CD62;
+
+}
+
+nav li a{
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: #E6CD62;
+}
+
+nav li{
+  display: inline;
+}
+
+.collage{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+h2{
+  position: relative;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 18.1%;
+}
+*/
+
+/*
+h2 span{
+  color: #E6CD62;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  display: block;
+}
+*/
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding: 50px 0px;
+
+}
+@media screen and (min-width: 768px){
+
+.fhforside{
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}

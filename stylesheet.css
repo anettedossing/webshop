@@ -1,0 +1,324 @@
+/* Steffens CSS*/
+/* Basics*/
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+html {
+  background-color: #f8f8f8;
+}
+
+header {
+  width: 100%;
+  height: 89px;
+  background-color: #1B1D1E;
+}
+
+.desklogo {
+  display: none;
+}
+
+main {
+  background-color: #f8f8f8;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #1B1D1E;
+  clear: both;
+}
+
+h1 {
+  color: #E6CD62;
+  font-family: 'Sail';
+  display: inline;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Yantramanav';
+  margin-top: 10px;
+  color: #95989A;
+}
+
+p {
+  font-size: 15px;
+  color: #95989A;
+}
+
+section {
+  margin: 0,5rem;
+  margin: 1rem;
+}
+
+.headerposition{
+  position: relative;
+  left: 30px;
+  bottom: 45%;
+}
+
+.active {
+  background-color: #4a0a1a;
+}
+
+
+/*navbar */
+nav {
+  background-color: #631025;
+  height: 45px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+li a {
+  display: block;
+  color: #E6CD62;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 15px 0;
+}
+
+/* footer */
+i {
+  color: #f8f8f8;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+.footerpos {
+  display: block;
+  float: right;
+  clear: both;
+}
+
+.footercolor{
+  color: #E6CD62;
+}
+
+/*Freja specific*/
+body {
+  background-image: url("img/herregaard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.fhforside{
+  height: auto;
+  width: 100%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FHfooter{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.FHh2{
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+
+.FHh2 span {
+  color: #e6cd62;
+  background: rgb(0,0,0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  display: block;
+}
+
+/*Emil Specific*/
+.fhlogo {
+  max-width: 10%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobilcollage{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collage {
+    height: auto;
+    width: 100%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Rico Specific*/
+  /* Her er det et særskilt Stylesheet da det var baseret på classes*
+
+/* Anette Specific*/
+.stol {
+ max-width: 100%;
+ height: auto;
+ padding-top: 10%;
+}
+.ANoverskrift{
+  padding: 5% 0 0 10%;
+}
+.priser .ANoverskrift, p{
+ font: 'Libre Franklin';
+ padding-right: 10%;
+ padding-left: 10%;
+}
+.priser h2, p{
+ font: 'Libre Franklin';
+ padding-right: 10%;
+ padding-left: 10%;
+}
+
+.priser h3 {
+  font-size: 25px;
+  padding: 2%;
+  margin-left: 10%;
+  width: 25%;
+  background-color: #737373;
+}
+.logo {
+  float: left;
+  padding-top: 0;
+  height: 89px;
+  width: auto;
+}
+/*efter breaking point*/
+
+@media screen and (min-width: 768px){
+  li{
+      float: left;
+      width: 100px;
+  }
+
+  header {
+    height: 217px;
+  }
+
+  .mobilelogo{
+    display: none;
+  }
+
+  .desklogo{
+    display: inline;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  section {
+    margin-left: 40px;
+  }
+
+  .wideadress{
+    float: right;
+    width: 50%;
+    margin-top: 150px;
+  }
+
+  .widevision {
+    width: 30%;
+  }
+
+  .widemaps {
+    float: right;
+    max-width: 768px;
+  }
+
+  .iframepos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+  /*Freja Specific */
+  .fhforside{
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body {
+  background-image: none;
+}
+.FHfooter{
+  position: relative;
+}
+
+  /*Emil Specific*/
+  .collage {
+      height: auto;
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .mobilcollage{
+    height: auto;
+    width: 100%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Anette Specific*/
+  .logo{
+    height: 217px;
+    width: auto;
+  }
+
+  .priser .ANoverskrift, p {
+    font: 'Libre Franklin';
+    padding-right: 10%;
+  }
+
+  .overskrift p{
+    float: left;
+  }
+
+  .overskrift h2{
+    padding-left: 10%;
+  }
+
+  article {
+    width: 50%;
+    float: left;
+  }
+
+  .clear{
+    clear: both;
+  }
+ }
+}
+
+/* google maps API */
+AIzaSyDLP_fevootgLSkqI3Y89imJItuSLTHgnE
